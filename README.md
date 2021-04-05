@@ -1,24 +1,14 @@
-# README
+# Rails Docker Example
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To get started run:
 
-Things you may want to cover:
+`docker-compose build`
 
-* Ruby version
+Then run:
 
-* System dependencies
+`docker-compose up`
 
-* Configuration
+To connect to the running application container, run:
 
-* Database creation
+`docker exec -it restarone_app /bin/sh
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
